@@ -25,9 +25,10 @@ const ChatSideBar = ({ chats, chatId }: Props) => {
         {chats.map((chat) => (
           <Link key={chat.id} href={`/chats/${chat.id}`}>
             <div
-              className={cn("rounded-lg p-3 text-slate-300 flex items-center", {
+              className={cn("rounded-lg p-3 text-white flex items-center", {
                 "bg-rose-500 text-white": chat.id === chatId,
                 "hover:text-white": chat.id !== chatId,
+                "hover:bg-rose-500": chat.id !== chatId,
               })}
             >
               <MessageCircle className="mr-2" />
