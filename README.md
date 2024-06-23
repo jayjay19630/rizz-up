@@ -7,7 +7,7 @@ This NextJS web app, named Rizz Up, allows online users to upload files of their
 
 ## Getting Started
 
-To visit the deployed version of this website, you may check out https://nusgrapevine.netlify.app. Otherwise, to get a local copy up and running, note the prerequisites and follow these steps.
+To visit the deployed version of this website on Vercel, you may check out https://rizz-up-two.vercel.app/. Otherwise, to get a local copy up and running, note the prerequisites and follow these steps.
 
 ### Prerequisites
 
